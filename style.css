@@ -69,6 +69,7 @@ body {
     color: rgb(14, 14, 14);
     font-size: 56px;
     font-weight: 700;
+    font-size: bolder;
 }
 
 .main_btn button {
@@ -77,7 +78,13 @@ body {
     background: rgb(0, 106, 80);
     border: none;
     color: white;
-    font-size: bolder;
+    border: 1px solid gray;
+}
+
+.main_btn button:hover {
+    background-color: rgb(198, 228, 214);
+    color: black;
+    cursor: pointer;
 }
 
 /* pillars_section start here  */
@@ -168,6 +175,24 @@ body {
     padding: 1rem 2rem;
     border-radius: 8px;
     color: white;
+}
+
+.vision_btn button:hover {
+    background-color: rgb(255, 194, 57);
+    color: black;
+    cursor: pointer;
+}
+
+.vision_btn2 button:hover {
+    background-color: rgb(84, 144, 245);
+    color: black;
+    cursor: pointer;
+}
+
+.vision_btn3 button:hover {
+    background-color: rgb(9, 161, 92);
+    color: black;
+    cursor: pointer;
 }
 
 .vision_card2 {
@@ -328,8 +353,7 @@ body {
     text-align: center;
     border: none;
     font-size: 20px;
-    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3),
-        0 2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid gray;
 }
 
 .donate_btn {
@@ -353,9 +377,10 @@ body {
     color: black;
     cursor: pointer;
 }
+
 /* subscribe_section start here  */
 
-.subscribe_section{
+.subscribe_section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,27 +390,56 @@ body {
     border-radius: 16px;
 
 }
-.subscribe_content{
+
+.subscribe_content {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.subscribe_content label{
+
+.subscribe_content label {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0px;
 }
-.subscribe_content label input[type="text"]{
-        padding: 18px 40px;
-        border: none;
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
+
+.subscribe_content label input[type="text"] {
+    padding: 18px 40px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
-.subscribe_content button{
+
+.subscribe_content button {
     padding: 18px 30px;
     border: none;
     background-color: #09A15C;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+.subscribe_content button:hover {
+    background-color: #f5f5f5;
+    color: black;
+    cursor: pointer;
+}
+
+/* footer section start here  */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ffffffff;
+    padding: 40px;
+}
+
+hr {
+    width: 100%;
+}
+
+.bd2_0_img {
+    display: flex;
+    gap: 2rem;
 }
