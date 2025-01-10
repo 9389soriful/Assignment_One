@@ -253,13 +253,14 @@ body {
     padding: 1rem;
     border-radius: 8px;
 }
-.select_child label select{
+
+.select_child label select {
     background-color: transparent;
     border: none;
 }
 
 /* news section start here  */
-.news_card{
+.news_card {
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 32px;
@@ -269,20 +270,122 @@ body {
     gap: 2rem;
     margin-top: 40px;
 }
-.news_icon img{
+
+.news_icon img {
     border-radius: 16px;
 }
-.news_details{
+
+.news_details {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.news_details_date{
+
+.news_details_date {
     display: flex;
     gap: 1rem;
 }
-.news_head{
+
+.news_head {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+/* donate_head style doing me here  */
+.donate_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.donate_content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.donate_content .donate_btn {
+    background-color: rgb(255, 255, 255);
+    padding: 40px 50px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate_content .donate_btn:hover {
+    background-color: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+#donate_input {
+    padding: 40px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3),
+        0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.donate_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.donate_btn button {
+    background-color: #09A15C;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    border: 1px solid gray;
+}
+
+.donate_btn button:hover {
+    background-color: #f5f5f5;
+    color: black;
+    cursor: pointer;
+}
+/* subscribe_section start here  */
+
+.subscribe_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(198, 228, 214);
+    padding: 80px 100px;
+    border-radius: 16px;
+
+}
+.subscribe_content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.subscribe_content label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.subscribe_content label input[type="text"]{
+        padding: 18px 40px;
+        border: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+}
+.subscribe_content button{
+    padding: 18px 30px;
+    border: none;
+    background-color: #09A15C;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
