@@ -8,6 +8,10 @@
     font-family: Fira Sans;
 }
 
+body {
+    background-color: #f5f5f5;
+}
+
 /* header section start here  */
 .header {
     display: flex;
@@ -47,12 +51,14 @@
     border-radius: 24px;
     gap: 2rem;
 }
+
 /* main information part here  */
-.main_info{
+.main_info {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
+
 .main_info1 {
     font-size: 24px;
     font-weight: 500;
@@ -72,4 +78,43 @@
     border: none;
     color: white;
     font-size: bolder;
+}
+
+/* pillars_section start here  */
+.pillars_section {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 160px;
+}
+
+.pillars_heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pillars_content {
+    display: flex;
+    gap: 48px;
+    margin: 40px 0px;
+}
+
+.pillars_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 25px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillars_caption {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pillars_des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
 }
