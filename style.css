@@ -127,11 +127,13 @@ body {
     gap: 40px;
     margin: 40px 160px;
 }
-.vision_head{
+
+.vision_head {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
 .vision_content {
     display: flex;
     gap: 32px;
@@ -191,5 +193,18 @@ body {
     color: white;
     background-color: rgb(255, 194, 57);
 }
+
 /* vision section end here  */
 /* next here  */
+
+/* muhammad_president style start here  */
+.muhammad_president {
+    background-color: #ffffffff;
+    margin: 40px 160px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px 25px;
+    padding: 48px 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
