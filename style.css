@@ -118,3 +118,78 @@ body {
     font-weight: 400;
 
 }
+
+/* vision_future styling start here  */
+
+.vision_future {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 160px;
+}
+.vision_head{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.vision_content {
+    display: flex;
+    gap: 32px;
+}
+
+.vision_heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.vision_heading_des {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision_card {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vision_status {
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.vision_btn button {
+    border: none;
+    background-color: rgb(84, 144, 245);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.vision_card2 {
+    background-color: rgb(198, 228, 214);
+}
+
+.vision_btn2 button {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(9, 161, 92);
+}
+
+.vision_card3 {
+    background-color: rgb(247, 235, 207);
+}
+
+.vision_btn3 button {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(255, 194, 57);
+}
+/* vision section end here  */
+/* next here  */
