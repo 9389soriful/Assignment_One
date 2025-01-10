@@ -208,3 +208,52 @@ body {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
+
+/* opinion section start here  */
+.opinion {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 160px;
+}
+
+.opinion_heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.opinion_content {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+.question_head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(198, 228, 214);
+    padding: 32px;
+    border: 1px solid gray;
+}
+
+.opinion_content_box {
+    padding: 32px;
+}
+
+.select_child {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+.select_child label {
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(198, 228, 214);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.select_child label select{
+    background-color: transparent;
+    border: none;
+}
